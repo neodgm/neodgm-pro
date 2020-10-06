@@ -3,12 +3,15 @@ defmodule NeoDGMPro.Params do
   alias NeoDGMPro.GPOS
   alias NeoDGMPro.GSUB
   alias NeoDGMPro.NameTable
+  alias PixelFont.Font
+  alias PixelFont.Font.Metrics
+  alias PixelFont.TableSource.OS_2
 
   @version Version.parse!(Mix.Project.config()[:version])
 
-  @spec params :: map()
+  @spec params :: Font.t()
   def params do
-    %{
+    %Font{
       version: @version,
       name_table: NameTable.name_table(),
       metrics: metrics(),
@@ -20,8 +23,9 @@ defmodule NeoDGMPro.Params do
     }
   end
 
+  @spec metrics() :: Metrics.t()
   defp metrics do
-    %{
+    %Metrics{
       units_per_em: 16,
       ascender: 12,
       descender: 4,
@@ -32,8 +36,9 @@ defmodule NeoDGMPro.Params do
     }
   end
 
+  @spec os_2() :: OS_2.t()
   defp os_2 do
-    %{
+    %OS_2{
       avg_char_width: :auto,
       weight_class: :normal,
       width_class: :medium,
@@ -44,7 +49,7 @@ defmodule NeoDGMPro.Params do
       strike_size: 1,
       strike_position: 4,
       family_class: {:sans_serif, :no_classification},
-      panose: [2, 1, 5, 3, 6, 2, 1, 4, 2, 3],
+      panose: <<2, 1, 5, 3, 6, 2, 1, 4, 2, 3>>,
       vendor_id: "5757",
       x_height: 7,
       cap_height: 10

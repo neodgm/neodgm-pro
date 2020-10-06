@@ -2,6 +2,12 @@ use PixelFont.GlyphSource
 
 glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
   based_on: NeoDGM.BitmapFont.Latin1Supplement do
+  bmp_glyph unicode: 0xA0 do
+    advance 5
+    bounds 0..0, 0..0
+    data ""
+  end
+
   bmp_glyph unicode: ?¡ do
     advance 5
     bounds 1..3, -3..7

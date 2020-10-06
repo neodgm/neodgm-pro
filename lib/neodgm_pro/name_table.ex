@@ -1,7 +1,8 @@
 use PixelFont.NameTable
 
 ver = Version.parse!(Mix.Project.config()[:version])
-version_str = "Version #{ver.major}.#{ver.minor}#{ver.patch}"
+patch_str = ver.patch |> to_string() |> String.pad_leading(2, "0")
+version_str = "Version #{ver.major}.#{ver.minor}#{patch_str}"
 
 copyright_en = """
 Original font was released under the public domain by Jungtae Kim \

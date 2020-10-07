@@ -194,6 +194,24 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
+  bmp_glyph unicode: ?Æ do
+    advance 10
+    bounds 0..9, 0..10
+
+    data """
+    011111111
+    110011000
+    110011000
+    110011000
+    111111111
+    110011000
+    110011000
+    110011000
+    110011000
+    110011111
+    """
+  end
+
   composite_glyph unicode: ?Ì do
     component {:name, "grave.component"}, -2, 0
     component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
@@ -212,6 +230,21 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
   composite_glyph unicode: ?Ï do
     component {:name, "dieresis.component.i"}, -2, 0
     component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  end
+
+  bmp_glyph unicode: ?æ do
+    advance 11
+    bounds 0..10, 0..7
+
+    data """
+    1111101110
+    0000110011
+    0111111111
+    1100110000
+    1100110000
+    1100110011
+    0111101110
+    """
   end
 
   composite_glyph unicode: ?ì do

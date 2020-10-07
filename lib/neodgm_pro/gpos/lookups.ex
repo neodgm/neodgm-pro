@@ -46,13 +46,15 @@ defmodule NeoDGMPro.GPOS.Lookups do
               class_1: %ClassDefinition{
                 assignments: %{
                   1 => 'F',
-                  2 => 'T'
+                  2 => 'T',
+                  3 => 'f\uFB00'
                 }
               },
               class_2: %ClassDefinition{
                 assignments: %{
                   1 => 'acdegmnopqruvwxyzàáæçðèéòóøùúýı',
-                  2 => 'âäåêëôöûüÿ'
+                  2 => 'âäåêëôöûüÿ',
+                  3 => 'fil\uFB00\uFB01\uFB02\uFB03\uFB04'
                 }
               },
               value_format_1: ~w(x_advance)a,
@@ -61,7 +63,8 @@ defmodule NeoDGMPro.GPOS.Lookups do
                 {1, 1} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
                 {1, 2} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
                 {2, 1} => {%ValueRecord{x_advance: -2}, %ValueRecord{}},
-                {2, 2} => {%ValueRecord{x_advance: -1}, %ValueRecord{}}
+                {2, 2} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
+                {3, 3} => {%ValueRecord{x_advance: -1}, %ValueRecord{}}
               }
             }
           ]

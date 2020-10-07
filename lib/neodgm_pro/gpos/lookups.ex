@@ -40,6 +40,35 @@ defmodule NeoDGMPro.GPOS.Lookups do
         %Lookup{
           owner: GPOS,
           type: 2,
+          name: "Kerning rules for Latin",
+          subtables: [
+            %PairAdjustment2{
+              class_1: %ClassDefinition{
+                assignments: %{
+                  1 => 'F',
+                  2 => 'T'
+                }
+              },
+              class_2: %ClassDefinition{
+                assignments: %{
+                  1 => 'acdegmnopqruvwxyzàáæçðèéòóøùúýı',
+                  2 => 'âäåêëôöûüÿ'
+                }
+              },
+              value_format_1: ~w(x_advance)a,
+              value_format_2: [],
+              records: %{
+                {1, 1} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
+                {1, 2} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
+                {2, 1} => {%ValueRecord{x_advance: -2}, %ValueRecord{}},
+                {2, 2} => {%ValueRecord{x_advance: -1}, %ValueRecord{}}
+              }
+            }
+          ]
+        },
+        %Lookup{
+          owner: GPOS,
+          type: 2,
           name: "Kerning rules for opening quotation marks and Hangul",
           subtables: [
             %PairAdjustment2{

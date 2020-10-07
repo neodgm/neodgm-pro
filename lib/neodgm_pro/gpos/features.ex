@@ -10,6 +10,7 @@ defmodule NeoDGMPro.GPOS.Features do
           name: "Kerning rules",
           lookups: [
             "Kerning rules for punctuations",
+            "Kerning rules for Latin",
             "Kerning rules for opening quotation marks and Hangul"
           ]
         }

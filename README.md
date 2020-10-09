@@ -2,9 +2,6 @@
 
 <img src="https://neodgm.dalgona.dev/assets/images/neodgm_pro_demo.png" width="672">
 
-_위 이미지는 개발중인 글꼴을 사용하여 제작되었으며, 정식 공개 버전으로 작성한
-텍스트는 이와 다르게 보일 수 있습니다._
-
 **Neo둥근모 Pro**는 [Neo둥근모](https://github.com/Dalgona/neodgm)를 바탕으로
 만들어진 가변폭 비트맵 글꼴입니다.
 
@@ -21,11 +18,43 @@ Neo둥근모 Pro는 여기에서 더 나아가 DOS 시절 비트맵 글꼴의 �
 간격을 보기 좋게 조정하는 커닝(kerning) 기능을 적용한 가변폭 글꼴로, 터미널
 외의 모든 곳에서 자유롭게 사용할 수 있습니다.
 
+자세한 내용은 [이 웹사이트](http://neodgm.dalgona.dev)에서 확인해 주세요.
+
 ## 내려받기
 
 이 저장소에는 원본 비트맵 글꼴과 TTF 생성 도구의 소스만 포함되어 있습니다.
 글꼴을 받으시려면 [Releases](https://github.com/Dalgona/neodgm-pro/releases)를
 이용해 주세요.
+
+## 패키지 관리자를 통해 설치하기
+
+> **주의:**
+>
+> 아래 패키지는 공식적으로 지원되지 않으며, 글꼴의 최신 버전을 곧바로 반영하지
+> 않을 수도 있습니다. 또한, 아래 방법으로 글꼴을 설치하여 사용했을 때 발생한
+> 문제에 대해서 Neo둥근모 Pro의 개발자는 책임을 지지 않습니다. 커뮤니티
+> 패키지에 관한 문의는 각 패키지의 유지보수 담당자에게 직접 해 주시기 바랍니다.
+
+현재 아래 플랫폼에서 패키지 관리자를 통해 손쉽게 글꼴을 설치할 수 있습니다.
+
+### Arch Linux
+
+AUR (Arch User Repository)에서 `ttf-neodgm-pro` 패키지를 설치하세요.
+
+```bash
+# Git
+$ git clone https://aur.archlinux.org/ttf-neodgm-pro.git
+$ cd ttf-neodgm-pro
+$ makepkg -si
+```
+
+```bash
+# AUR Helpers (yay for example)
+$ yay -S ttf-neodgm-pro
+```
+
+이 AUR 패키지는 [@RieLCho](https://github.com/RieLCho) 님께서 제작해
+주셨습니다. 💕
 
 ## 직접 빌드하기
 
@@ -55,15 +84,15 @@ Neo둥근모 Pro는 여기에서 더 나아가 DOS 시절 비트맵 글꼴의 �
 
 ## 글꼴 사용 가이드라인
 
-Neo둥근모를 일반적인 PC 모니터에 표시될 컨텐츠를 제작하는 데 사용하는 경우에는
-아래 링크에서 설명하는 가이드라인에 최대한 따라 주어야 최상의 결과물을 얻을 수
-있습니다.
+Neo둥근모 Pro를 일반적인 PC 모니터에 표시될 컨텐츠를 제작하는 데 사용하는
+경우에는 아래 링크에서 설명하는 가이드라인에 최대한 따라 주어야 최상의 결과물을
+얻을 수 있습니다.
 
 https://neodgm.dalgona.dev/guides.html
 
 ## 문의
 
-빌드한 글꼴 파일에 문제가 있는 경우, 글꼴 빌드 프로그램에 문제나 개선 사항이
+내려받은 글꼴 파일에 문제가 있는 경우, 글꼴 빌드 프로그램에 문제나 개선 사항이
 있는 경우, 또는 우선적으로 추가되었으면 하는 문자나 기타 의견이 있는 경우에는
 망설이지 말고 Issue를 제출해 주세요!
 

@@ -2,13 +2,13 @@ use PixelFont.GlyphSource
 
 glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
   based_on: NeoDGM.BitmapFont.Latin1Supplement do
-  bmp_glyph unicode: 0xA0 do
+  bmp_glyph 0xA0 do
     advance 5
     bounds 0..0, 0..0
     data ""
   end
 
-  bmp_glyph unicode: ?¡ do
+  bmp_glyph ?¡ do
     advance 5
     bounds 1..3, -3..7
 
@@ -26,7 +26,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?¦ do
+  bmp_glyph ?¦ do
     advance 5
     bounds 1..3, -1..11
 
@@ -46,7 +46,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?© do
+  bmp_glyph ?© do
     advance 13
     bounds 0..12, -1..10
 
@@ -65,7 +65,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?ª do
+  bmp_glyph ?ª do
     advance 7
     bounds 0..6, 4..10
 
@@ -79,7 +79,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?® do
+  bmp_glyph ?® do
     advance 13
     bounds 0..12, -1..10
 
@@ -98,7 +98,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?° do
+  bmp_glyph ?° do
     advance 6
     bounds 1..5, 7..11
 
@@ -110,7 +110,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?± do
+  bmp_glyph ?± do
     advance 7
     bounds 0..6, 0..7
 
@@ -125,7 +125,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?² do
+  bmp_glyph ?² do
     advance 6
     bounds 0..5, 4..11
 
@@ -140,7 +140,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?³ do
+  bmp_glyph ?³ do
     advance 6
     bounds 0..5, 4..11
 
@@ -155,7 +155,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?· do
+  bmp_glyph ?· do
     advance 5
     bounds 1..3, 3..5
 
@@ -165,7 +165,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?¹ do
+  bmp_glyph ?¹ do
     advance 6
     bounds 0..4, 4..11
 
@@ -180,7 +180,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?º do
+  bmp_glyph ?º do
     advance 7
     bounds 0..6, 4..10
 
@@ -194,7 +194,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph unicode: ?Æ do
+  bmp_glyph ?Æ do
     advance 10
     bounds 0..9, 0..10
 
@@ -212,27 +212,27 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  composite_glyph unicode: ?Ì do
-    component {:name, "grave.component"}, -2, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Ì do
+    component "grave.component", -2, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Í do
-    component {:unicode, 0x00B4}, -1, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Í do
+    component 0x00B4, -1, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Î do
-    component {:name, "circumflex.component"}, -1, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Î do
+    component "circumflex.component", -1, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?Ï do
-    component {:name, "dieresis.component.i"}, -2, 0
-    component {:name, "I.short"}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?Ï do
+    component "dieresis.component.i", -2, 0
+    component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  bmp_glyph unicode: ?æ do
+  bmp_glyph ?æ do
     advance 11
     bounds 0..10, 0..7
 
@@ -247,29 +247,29 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  composite_glyph unicode: ?ì do
-    component {:name, "grave.component"}, -2, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?ì do
+    component "grave.component", -2, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?í do
-    component {:unicode, 0x00B4}, -1, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?í do
+    component 0x00B4, -1, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?î do
-    component {:name, "circumflex.component"}, -1, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?î do
+    component "circumflex.component", -1, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph unicode: ?ï do
-    component {:name, "dieresis.component.i"}, -2, -2
-    component {:unicode, 0x0131}, 0, 0, flags: [:use_my_metrics]
+  composite_glyph ?ï do
+    component "dieresis.component.i", -2, -2
+    component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
   # dotless i
   # TODO: Move this glyph to Latin Extended-A module later.
-  bmp_glyph unicode: 0x0131 do
+  bmp_glyph 0x0131 do
     advance 5
     bounds 0..4, 0..7
 

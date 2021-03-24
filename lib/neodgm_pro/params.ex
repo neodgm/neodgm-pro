@@ -1,6 +1,5 @@
 defmodule NeoDGMPro.Params do
   alias NeoDGMPro.BitmapFont
-  alias NeoDGMPro.GPOS
   alias NeoDGMPro.GSUB
   alias NeoDGMPro.NameTable
   alias PixelFont.Font
@@ -18,7 +17,9 @@ defmodule NeoDGMPro.Params do
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(),
       notdef_glyph: NeoDGM.BitmapFont.NotDef,
-      gpos: GPOS.get_gpos(),
+      gpos_lookups: [
+        NeoDGMPro.Lookups.GPOS.Kerning
+      ],
       gsub: GSUB.get_gsub()
     }
   end

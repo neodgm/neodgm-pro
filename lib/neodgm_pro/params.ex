@@ -1,6 +1,5 @@
 defmodule NeoDGMPro.Params do
   alias NeoDGMPro.BitmapFont
-  alias NeoDGMPro.GSUB
   alias NeoDGMPro.NameTable
   alias PixelFont.Font
   alias PixelFont.Font.Metrics
@@ -20,7 +19,9 @@ defmodule NeoDGMPro.Params do
       gpos_lookups: [
         NeoDGMPro.Lookups.GPOS.Kerning
       ],
-      gsub: GSUB.get_gsub()
+      gsub_lookups: [
+        NeoDGMPro.Lookups.GSUB.LatinLigatures
+      ]
     }
   end
 

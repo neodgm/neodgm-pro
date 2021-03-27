@@ -17,9 +17,11 @@ defmodule NeoDGMPro.Params do
       glyph_sources: BitmapFont.get_sources(),
       notdef_glyph: NeoDGM.BitmapFont.NotDef,
       gpos_lookups: [
+        NeoDGM.Lookups.GPOS.Hangul,
         NeoDGMPro.Lookups.GPOS.Kerning
       ],
       gsub_lookups: [
+        NeoDGM.Lookups.GSUB.Hangul,
         NeoDGMPro.Lookups.GSUB.LatinLigatures
       ]
     }

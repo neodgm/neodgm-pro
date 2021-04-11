@@ -27,22 +27,29 @@ lookups NeoDGMPro.Lookups.GPOS.Kerning, for: "GPOS" do
       %PairAdjustment2{
         class_1: %ClassDefinition{
           assignments: %{
-            1 => [0x002C, 0x002E],
-            2 => [0x2026]
+            1 => ',.\u2024\u2025\u2026',
+            2 => '/',
+            3 => '\\'
           }
         },
         class_2: %ClassDefinition{
           assignments: %{
             1 => [0x2019, 0x201D],
-            2 => [0x003F]
+            2 => '?',
+            3 => '/',
+            4 => '\\',
+            5 => '.,\u2024\u2025\u2026'
           }
         },
         value_format_1: ~w(x_advance)a,
         value_format_2: [],
         records: %{
           {1, 1} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
-          {2, 1} => {%ValueRecord{x_advance: -1}, %ValueRecord{}},
-          {2, 2} => {%ValueRecord{x_advance: -2}, %ValueRecord{}}
+          {1, 2} => {%ValueRecord{x_advance: -2}, %ValueRecord{}},
+          {1, 4} => {%ValueRecord{x_advance: -3}, %ValueRecord{}},
+          {2, 3} => {%ValueRecord{x_advance: -2}, %ValueRecord{}},
+          {2, 5} => {%ValueRecord{x_advance: -3}, %ValueRecord{}},
+          {3, 4} => {%ValueRecord{x_advance: -2}, %ValueRecord{}}
         }
       }
     ]

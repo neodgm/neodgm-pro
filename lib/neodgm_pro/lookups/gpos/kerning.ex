@@ -68,7 +68,7 @@ lookups NeoDGMPro.Lookups.GPOS.Kerning, for: "GPOS" do
             2 => 'T',
             3 => 'f\uFB00',
             4 => 'Labceghkmnopqrsuvwxyzàáæçèéòóùúýı',
-            5 => 'tâäåêëôöøûüÿ',
+            5 => 'tâäåêëôöøûüÿ'
           }
         },
         class_2: %ClassDefinition{
@@ -122,6 +122,34 @@ lookups NeoDGMPro.Lookups.GPOS.Kerning, for: "GPOS" do
           Map.new(1..3, fn class_2 ->
             {{1, class_2}, {%ValueRecord{x_advance: -1}, %ValueRecord{}}}
           end)
+      }
+    ]
+  }
+
+  %Lookup{
+    owner: GPOS,
+    name: "Readability improvement for punctuations between hangul",
+    features: %{"dist" => scripts()},
+    type: 2,
+    subtables: [
+      %PairAdjustment2{
+        class_1: %ClassDefinition{
+          assignments: %{
+            1 => ~w(jung_0_00 jung_1_00),
+            2 => '\u1161가까나다따라마바빠사싸아자짜차카타파하'
+          }
+        },
+        class_2: %ClassDefinition{
+          assignments: %{
+            1 => '-~' ++ Enum.to_list(0x2010..0x2015)
+          }
+        },
+        value_format_1: ~w(x_advance)a,
+        value_format_2: [],
+        records: %{
+          {1, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}},
+          {2, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}}
+        }
       }
     ]
   }

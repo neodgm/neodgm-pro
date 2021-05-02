@@ -25,4 +25,5 @@ neodgm_pro-*.tar
 *.ttf
 *.woff
 *.woff2
+*.sha256sum
 

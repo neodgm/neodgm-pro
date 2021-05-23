@@ -128,15 +128,16 @@ lookups NeoDGMPro.Lookups.GPOS.Kerning, for: "GPOS" do
 
   %Lookup{
     owner: GPOS,
-    name: "Readability improvement for punctuations between hangul",
+    name: "Readability improvement for punctuations between Hangul",
     features: %{"dist" => scripts()},
     type: 2,
     subtables: [
       %PairAdjustment2{
         class_1: %ClassDefinition{
           assignments: %{
-            1 => ~w(jung_0_00 jung_1_00),
-            2 => '\u1161가까나다따라마바빠사싸아자짜차카타파하'
+            1 => ~w(jung_0_00 jung_0_09 jung_1_00 jung_1_09),
+            2 => '\u1161\u314F가까나다따라마바빠사싸아자짜차카타파하',
+            3 => '\u116A\u3158과꽈놔돠똬롸뫄봐뽜솨쏴와좌쫘촤콰톼퐈화'
           }
         },
         class_2: %ClassDefinition{
@@ -148,7 +149,8 @@ lookups NeoDGMPro.Lookups.GPOS.Kerning, for: "GPOS" do
         value_format_2: [],
         records: %{
           {1, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}},
-          {2, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}}
+          {2, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}},
+          {3, 1} => {%ValueRecord{x_advance: 1}, %ValueRecord{}}
         }
       }
     ]

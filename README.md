@@ -1,5 +1,7 @@
 # Neo둥근모 Pro
 
+- [영문 (English)](https://github.com/Dalgona/neodgm-pro/blob/main/README.en.md)
+
 <img src="https://neodgm.dalgona.dev/assets/images/neodgm_pro_demo.png" width="672">
 
 **Neo둥근모 Pro**는 [Neo둥근모](https://github.com/Dalgona/neodgm)를 바탕으로
@@ -18,13 +20,13 @@ Neo둥근모 Pro는 여기에서 더 나아가 DOS 시절 비트맵 글꼴의 �
 간격을 보기 좋게 조정하는 커닝(kerning) 기능을 적용한 가변폭 글꼴로, 터미널
 외의 모든 곳에서 자유롭게 사용할 수 있습니다.
 
-자세한 내용은 [이 웹사이트](http://neodgm.dalgona.dev)에서 확인해 주세요.
+자세한 내용은 [이 웹사이트](http://neodgm.dalgona.dev/neodgm_pro.html)에서
+확인해 주세요.
 
 ## 내려받기
 
-이 저장소에는 원본 비트맵 글꼴과 TTF 생성 도구의 소스만 포함되어 있습니다.
-글꼴을 받으시려면 [Releases](https://github.com/Dalgona/neodgm-pro/releases)를
-이용해 주세요.
+이 저장소에는 글꼴의 소스 코드만 포함되어 있습니다. 글꼴을 내려받으시려면
+[Releases 페이지](https://github.com/Dalgona/neodgm-pro/releases)를 이용해 주세요.
 
 ## 패키지 관리자를 통해 설치하기
 
@@ -92,9 +94,8 @@ https://neodgm.dalgona.dev/guides.html
 
 ## 문의
 
-내려받은 글꼴 파일에 문제가 있는 경우, 글꼴 빌드 프로그램에 문제나 개선 사항이
-있는 경우, 또는 우선적으로 추가되었으면 하는 문자나 기타 의견이 있는 경우에는
-망설이지 말고 Issue를 제출해 주세요!
+내려받은 글꼴 파일에 문제가 있는 경우, 또는 우선적으로 추가되었으면 하는 문자나
+기타 의견이 있는 경우에는 망설이지 말고 Issue를 제출해 주세요!
 
 ## 라이선스
 

@@ -22,11 +22,9 @@ defmodule NeoDGMPro.BitmapFont do
       HangulJamo,
       HangulJamoSource,
       HangulSyllables,
-      NumberForms,
       Trigrams,
       Components.Diacritics,
-      Components.Enclosed,
-      Components.Fractions
+      Components.Enclosed
     ]
     |> Enum.map(&Module.concat(NeoDGM.BitmapFont, &1))
   end
@@ -37,6 +35,7 @@ defmodule NeoDGMPro.BitmapFont do
       GeneralPunctuation,
       Latin1Supplement,
       SuperscriptsAndSubscripts,
+      NumberForms,
       AlphabeticPresentationForms,
       Components.Fractions,
       Components.ShortCapitals

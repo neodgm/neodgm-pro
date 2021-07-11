@@ -194,6 +194,24 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
+  composite_glyph 0x00BC do
+    component 0x00B9, 0, 0
+    component 0x2044, 4, 0
+    component 0x2084, 10, 0
+  end
+
+  composite_glyph 0x00BD do
+    component 0x00B9, 0, 0
+    component 0x2044, 4, 0
+    component 0x2082, 10, 0
+  end
+
+  composite_glyph 0x00BE do
+    component 0x00B3, 0, 0
+    component 0x2044, 4, 0
+    component 0x2084, 10, 0
+  end
+
   bmp_glyph ?Æ do
     advance 10
     bounds 0..9, 0..10

@@ -19,7 +19,7 @@ defmodule NeoDGMPro.MixProject do
 
   defp deps do
     [
-      {:neodgm, github: "Dalgona/neodgm", ref: "v1.521"}
+      {:neodgm, github: "Dalgona/neodgm", ref: "10c0e8e1c214541fb766f83b261fb734d249d8e4"}
     ]
   end
 end

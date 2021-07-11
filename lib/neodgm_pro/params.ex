@@ -15,7 +15,6 @@ defmodule NeoDGMPro.Params do
       metrics: metrics(),
       os_2: os_2(),
       glyph_sources: BitmapFont.get_sources(),
-      notdef_glyph: NeoDGM.BitmapFont.NotDef,
       gpos_lookups: [
         NeoDGM.Lookups.GPOS.Hangul,
         NeoDGMPro.Lookups.GPOS.Kerning,

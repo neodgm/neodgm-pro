@@ -10,6 +10,7 @@ defmodule NeoDGMPro.BitmapFont do
 
   defp base_glyph_sources do
     [
+      NotDef,
       BlockElements,
       BoxDrawing,
       BraillePatterns,

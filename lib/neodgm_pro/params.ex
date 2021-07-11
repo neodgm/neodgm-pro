@@ -18,11 +18,13 @@ defmodule NeoDGMPro.Params do
       notdef_glyph: NeoDGM.BitmapFont.NotDef,
       gpos_lookups: [
         NeoDGM.Lookups.GPOS.Hangul,
-        NeoDGMPro.Lookups.GPOS.Kerning
+        NeoDGMPro.Lookups.GPOS.Kerning,
+        NeoDGMPro.Lookups.GPOS.Fractions
       ],
       gsub_lookups: [
         NeoDGM.Lookups.GSUB.Hangul,
-        NeoDGMPro.Lookups.GSUB.LatinLigatures
+        NeoDGMPro.Lookups.GSUB.LatinLigatures,
+        NeoDGMPro.Lookups.GSUB.Fractions
       ]
     }
   end

@@ -36,6 +36,7 @@ defmodule NeoDGMPro.BitmapFont do
       BasicLatin,
       GeneralPunctuation,
       Latin1Supplement,
+      SuperscriptsAndSubscripts,
       AlphabeticPresentationForms,
       Components.ShortCapitals
     ]

@@ -167,16 +167,16 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
 
   bmp_glyph ?¹ do
     advance 6
-    bounds 0..4, 4..11
+    bounds 1..4, 4..11
 
     data """
-    0011
-    0111
-    1111
-    0011
-    0011
-    0011
-    0011
+    011
+    111
+    011
+    011
+    011
+    011
+    011
     """
   end
 

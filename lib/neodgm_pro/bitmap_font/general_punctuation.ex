@@ -140,6 +140,26 @@ glyph_source NeoDGMPro.BitmapFont.GeneralPunctuation,
     component ?., 10, 0
   end
 
+  bmp_glyph 0x2044 do
+    advance 8
+    bounds 0..7, -1..11
+
+    data """
+    0000011
+    0000011
+    0000110
+    0000110
+    0001100
+    0001100
+    0011000
+    0011000
+    0110000
+    0110000
+    1100000
+    1100000
+    """
+  end
+
   bmp_glyph 0x2045 do
     advance 6
     bounds 1..5, -2..11

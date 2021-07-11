@@ -38,6 +38,7 @@ defmodule NeoDGMPro.BitmapFont do
       Latin1Supplement,
       SuperscriptsAndSubscripts,
       AlphabeticPresentationForms,
+      Components.Fractions,
       Components.ShortCapitals
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))

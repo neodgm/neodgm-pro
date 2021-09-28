@@ -1,11 +1,11 @@
 # NeoDunggeunmo Pro
 
-- [한국어 (Korean)](https://github.com/Dalgona/neodgm-pro/blob/main/README.md)
+- [한국어 (Korean)](https://github.com/neodgm/neodgm-pro/blob/main/README.md)
 
 <img src="https://neodgm.dalgona.dev/assets/images/neodgm_pro_demo.png" width="672">
 
 **NeoDunggeunmo Pro** is a proportional bitmap font based on
-[NeoDunggeunmo](https://github.com/Dalgona/neodgm).
+[NeoDunggeunmo](https://github.com/neodgm/neodgm).
 
 ## Introduction
 
@@ -27,7 +27,7 @@ for more information.
 ## Downloads
 
 This repository only contains source codes for the font. Use
-[the Releases page](https://github.com/Dalgona/neodgm-pro/releases) to download
+[the Releases page](https://github.com/neodgm/neodgm-pro/releases) to download
 the pre-built font files.
 
 ## Installing Fonts via Package Managers
@@ -70,7 +70,7 @@ files, the build instruction is provided below:
 1. Clone this repository using Git.
 
     ```sh
-    $ git clone https://github.com/Dalgona/neodgm-pro.git
+    $ git clone https://github.com/neodgm/neodgm-pro.git
     ```
 
 1. Enter these commands to build a TTF file.

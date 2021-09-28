@@ -1,10 +1,10 @@
 # Neo둥근모 Pro
 
-- [영문 (English)](https://github.com/Dalgona/neodgm-pro/blob/main/README.en.md)
+- [영문 (English)](https://github.com/neodgm/neodgm-pro/blob/main/README.en.md)
 
 <img src="https://neodgm.dalgona.dev/assets/images/neodgm_pro_demo.png" width="672">
 
-**Neo둥근모 Pro**는 [Neo둥근모](https://github.com/Dalgona/neodgm)를 바탕으로
+**Neo둥근모 Pro**는 [Neo둥근모](https://github.com/neodgm/neodgm)를 바탕으로
 만들어진 가변폭 비트맵 글꼴입니다.
 
 ## 소개
@@ -26,7 +26,7 @@ Neo둥근모 Pro는 여기에서 더 나아가 DOS 시절 비트맵 글꼴의 �
 ## 내려받기
 
 이 저장소에는 글꼴의 소스 코드만 포함되어 있습니다. 글꼴을 내려받으시려면
-[Releases 페이지](https://github.com/Dalgona/neodgm-pro/releases)를 이용해 주세요.
+[Releases 페이지](https://github.com/neodgm/neodgm-pro/releases)를 이용해 주세요.
 
 ## 패키지 관리자를 통해 설치하기
 
@@ -71,7 +71,7 @@ $ yay -S ttf-neodgm-pro
 1. Git을 사용하여 이 저장소를 복제하세요.
 
     ```sh
-    $ git clone https://github.com/Dalgona/neodgm-pro.git
+    $ git clone https://github.com/neodgm/neodgm-pro.git
     ```
 
 1. 아래 명령을 입력하여 TTF 파일을 빌드하세요.

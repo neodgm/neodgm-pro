@@ -58,6 +58,15 @@ $ yay -S ttf-neodgm-pro
 이 AUR 패키지는 [@RieLCho](https://github.com/RieLCho) 님께서 제작해
 주셨습니다. 💕
 
+## 웹 폰트로 사용하기
+
+### 공식 웹 폰트 키트 (neodgm-pro-webfont)
+
+[neodgm/neodgm-pro-webfont](https://github.com/neodgm/neodgm-pro-webfont)는
+Neo둥근모 Pro의 공식 웹 폰트 키트 저장소로, Neo둥근모 Pro 글꼴의 최신 버전이
+공개될 때 가장 먼저 업데이트됩니다. 자세한 사용법은 해당 저장소의 `README.md`
+파일을 확인해 주세요.
+
 ## 직접 빌드하기
 
 대부분의 경우에는 이미 빌드된 글꼴 파일을 다운로드 받아서 사용하는 것으로도

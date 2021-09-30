@@ -57,6 +57,15 @@ $ yay -S ttf-neodgm-pro
 
 This AUR package is maintained by [@RieLCho](https://github.com/RieLCho). 💕
 
+## Using Web Fonts
+
+### Official Web Font Kit (neodgm-pro-webfont)
+
+[neodgm/neodgm-pro-webfont](https://github.com/neodgm/neodgm-pro-webfont) is a
+repository for the official NeoDunggeunmo Pro web font kits, and therefore it
+gets updated as fast as possible when a new version of the font is released.
+Check the `README.md` file of the repository for detailed instructions.
+
 ## Manually Building Fonts from the Source Code
 
 It is enough in most cases to download and use pre-built font files. For some

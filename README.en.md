@@ -32,6 +32,17 @@ the pre-built font files.
 
 ## Installing Fonts via Package Managers
 
+### Homebrew (macOS, etc.)
+
+You can install the font cask via Homebrew. These casks are provided by the
+[neodgm/homebrew-neodgm](https://github.com/neodgm/homebrew-neodgm) tap.
+
+```bash
+$ brew tap neodgm/neodgm
+
+$ brew install --cask font-neodunggeunmo-pro
+```
+
 > **CAUTION:**
 >
 > These packages below are not officially supported, and may not be up to date.

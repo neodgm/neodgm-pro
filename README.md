@@ -30,6 +30,18 @@ Neo둥근모 Pro는 여기에서 더 나아가 DOS 시절 비트맵 글꼴의 �
 
 ## 패키지 관리자를 통해 설치하기
 
+### Homebrew (macOS 등)
+
+Homebrew를 통해 글꼴 cask를 설치할 수 있습니다. 이 cask는
+[neodgm/homebrew-neodgm](https://github.com/neodgm/homebrew-neodgm) tap에서
+제공합니다.
+
+```bash
+$ brew tap neodgm/neodgm
+
+$ brew install --cask font-neodunggeunmo-pro
+```
+
 > **주의:**
 >
 > 아래 패키지는 공식적으로 지원되지 않으며, 글꼴의 최신 버전을 곧바로 반영하지

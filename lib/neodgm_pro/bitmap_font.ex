@@ -24,6 +24,7 @@ defmodule NeoDGMPro.BitmapFont do
       HangulJamoSource,
       HangulSyllables,
       Trigrams,
+      VariationSelectors,
       Components.Diacritics,
       Components.Enclosed
     ]
@@ -37,6 +38,7 @@ defmodule NeoDGMPro.BitmapFont do
       Latin1Supplement,
       SuperscriptsAndSubscripts,
       NumberForms,
+      CJKSymbols,
       AlphabeticPresentationForms,
       Components.Fractions,
       Components.ShortCapitals

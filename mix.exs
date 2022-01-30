@@ -9,7 +9,7 @@ defmodule NeoDGMPro.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       pixel_font: [
-        font_module: NeoDGMPro.Params
+        font_module: NeoDGMPro.Font
       ]
     ]
   end

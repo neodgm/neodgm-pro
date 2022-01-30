@@ -5,10 +5,12 @@ defmodule NeoDGMPro.Params do
   alias PixelFont.Font.Metrics
   alias PixelFont.TableSource.OS_2
 
+  @behaviour Font
+
   @version Version.parse!(Mix.Project.config()[:version])
 
-  @spec params :: Font.t()
-  def params do
+  @impl true
+  def font(_args) do
     %Font{
       version: @version,
       name_table: NameTable.name_table(),

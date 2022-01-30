@@ -1,4 +1,4 @@
 %{
-  "neodgm": {:git, "https://github.com/Dalgona/neodgm.git", "10c0e8e1c214541fb766f83b261fb734d249d8e4", [ref: "10c0e8e1c214541fb766f83b261fb734d249d8e4"]},
-  "pixel_font": {:git, "https://github.com/Dalgona/pixel_font.git", "d2f17ea5bbce1a9d74a46b54b36f9012098eb1d7", [ref: "d2f17ea5bbce1a9d74a46b54b36f9012098eb1d7"]},
+  "neodgm": {:git, "https://github.com/Dalgona/neodgm.git", "ac6516358df2bc55c4d4004620784d93a24988b3", [ref: "ac6516358df2bc55c4d4004620784d93a24988b3"]},
+  "pixel_font": {:git, "https://github.com/Dalgona/pixel_font.git", "ebe20b228a29849b30d6bb78ddff07bf705cc6cd", [ref: "ebe20b228a29849b30d6bb78ddff07bf705cc6cd"]},
 }

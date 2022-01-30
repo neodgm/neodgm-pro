@@ -100,10 +100,10 @@ Neo둥근모 Pro의 공식 웹 폰트 키트 저장소로, Neo둥근모 Pro 글�
     ```sh
     $ mix deps.get
 
-    $ MIX_ENV=prod mix build_font.pro
+    $ MIX_ENV=prod mix pixel_font.build
     ``` 
 
-1. 현재 작업 디렉토리에 `neodgm_pro.ttf` 파일이 생성됩니다.
+1. 현재 작업 디렉토리에 `NeoDunggeunmoPro-Regular.ttf` 파일이 생성됩니다.
 
 ## 글꼴 사용 가이드라인
 

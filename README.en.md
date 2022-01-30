@@ -98,10 +98,10 @@ files, the build instruction is provided below:
     ```sh
     $ mix deps.get
 
-    $ MIX_ENV=prod mix build_font.pro
+    $ MIX_ENV=prod mix pixel_font.build
     ```
 
-1. A file named `neodgm_pro.ttf` will be created in your PWD.
+1. A file named `NeoDunggeunmoPro-Regular.ttf` will be created in your PWD.
 
 ## Typography Guildlines
 

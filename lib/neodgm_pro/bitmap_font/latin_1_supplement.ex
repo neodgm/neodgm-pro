@@ -8,7 +8,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     data ""
   end
 
-  bmp_glyph ?¡ do
+  bmp_glyph 0xA1 do
     advance 5
     bounds 1..3, -3..7
 
@@ -26,7 +26,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?¦ do
+  bmp_glyph 0xA6 do
     advance 5
     bounds 1..3, -1..11
 
@@ -46,7 +46,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?© do
+  bmp_glyph 0xA9 do
     advance 13
     bounds 0..12, -1..10
 
@@ -65,7 +65,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?ª do
+  bmp_glyph 0xAA do
     advance 7
     bounds 0..6, 4..10
 
@@ -79,7 +79,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?® do
+  bmp_glyph 0xAE do
     advance 13
     bounds 0..12, -1..10
 
@@ -98,7 +98,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?° do
+  bmp_glyph 0xB0 do
     advance 6
     bounds 1..5, 7..11
 
@@ -110,7 +110,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?± do
+  bmp_glyph 0xB1 do
     advance 7
     bounds 0..6, 0..7
 
@@ -125,7 +125,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?² do
+  bmp_glyph 0xB2 do
     advance 6
     bounds 0..5, 4..11
 
@@ -140,7 +140,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?³ do
+  bmp_glyph 0xB3 do
     advance 6
     bounds 0..5, 4..11
 
@@ -155,7 +155,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?· do
+  bmp_glyph 0xB7 do
     advance 5
     bounds 1..3, 3..5
 
@@ -165,7 +165,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?¹ do
+  bmp_glyph 0xB9 do
     advance 6
     bounds 1..4, 4..11
 
@@ -180,7 +180,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  bmp_glyph ?º do
+  bmp_glyph 0xBA do
     advance 7
     bounds 0..6, 4..10
 
@@ -212,7 +212,7 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     component 0x2084, 10, 0
   end
 
-  bmp_glyph ?Æ do
+  bmp_glyph 0xC6 do
     advance 10
     bounds 0..9, 0..10
 
@@ -230,27 +230,27 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  composite_glyph ?Ì do
+  composite_glyph 0xCC do
     component "grave.component", -2, 0
     component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?Í do
+  composite_glyph 0xCD do
     component 0x00B4, -1, 0
     component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?Î do
+  composite_glyph 0xCE do
     component "circumflex.component", -1, 0
     component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?Ï do
+  composite_glyph 0xCF do
     component "dieresis.component.i", -2, 0
     component "I.short", 0, 0, flags: [:use_my_metrics]
   end
 
-  bmp_glyph ?æ do
+  bmp_glyph 0xE6 do
     advance 11
     bounds 0..10, 0..7
 
@@ -265,22 +265,22 @@ glyph_source NeoDGMPro.BitmapFont.Latin1Supplement,
     """
   end
 
-  composite_glyph ?ì do
+  composite_glyph 0xEC do
     component "grave.component", -2, -2
     component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?í do
+  composite_glyph 0xED do
     component 0x00B4, -1, -2
     component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?î do
+  composite_glyph 0xEE do
     component "circumflex.component", -1, -2
     component 0x0131, 0, 0, flags: [:use_my_metrics]
   end
 
-  composite_glyph ?ï do
+  composite_glyph 0xEF do
     component "dieresis.component.i", -2, -2
     component 0x0131, 0, 0, flags: [:use_my_metrics]
   end

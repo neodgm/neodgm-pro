@@ -1,8 +1,9 @@
 use PixelFont.GlyphSource
 import PixelFont.Util, only: :macros
 
-glyph_source NeoDGMPro.BitmapFont.GeneralPunctuation,
-  based_on: NeoDGM.BitmapFont.GeneralPunctuation do
+glyph_source NeoDGMPro.BitmapFont.GeneralPunctuation do
+  based_on NeoDGM.BitmapFont.GeneralPunctuation
+
   # U+2000 EN QUAD
   # U+2001 EM QUAD
   # U+2002 EN SPACE

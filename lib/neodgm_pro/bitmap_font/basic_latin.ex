@@ -1,7 +1,8 @@
 use PixelFont.GlyphSource
 
-glyph_source NeoDGMPro.BitmapFont.BasicLatin,
-  based_on: NeoDGM.BitmapFont.BasicLatin do
+glyph_source NeoDGMPro.BitmapFont.BasicLatin do
+  based_on NeoDGM.BitmapFont.BasicLatin, only: :unicode
+
   bmp_glyph ?\s do
     advance 5
     bounds 0..0, 0..0

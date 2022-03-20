@@ -1,7 +1,8 @@
 use PixelFont.GlyphSource
 
-glyph_source NeoDGMPro.BitmapFont.CJKSymbols,
-  based_on: NeoDGM.BitmapFont.CJKSymbols do
+glyph_source NeoDGMPro.BitmapFont.CJKSymbols do
+  based_on NeoDGM.BitmapFont.CJKSymbols
+
   # U+3001 IDEOGRAPHIC COMMA
   bmp_glyph 0x3001 do
     advance 12

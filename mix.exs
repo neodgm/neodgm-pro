@@ -22,7 +22,7 @@ defmodule NeoDGMPro.MixProject do
 
   defp deps do
     [
-      {:neodgm, github: "neodgm/neodgm", ref: "ac6516358df2bc55c4d4004620784d93a24988b3"},
+      {:neodgm, github: "neodgm/neodgm", ref: "5b8429e8ade98d877fed1f55da07da192490c544"},
       {:pixel_font, github: "Dalgona/pixel_font", ref: "c86174f32ca5f4ab91e18872ad7f697579227ae4", override: true}
     ]
   end

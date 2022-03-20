@@ -25,7 +25,8 @@ defmodule NeoDGMPro.Font do
       gsub_lookups: [
         NeoDGM.Lookups.GSUB.Hangul,
         NeoDGMPro.Lookups.GSUB.LatinLigatures,
-        NeoDGMPro.Lookups.GSUB.Fractions
+        NeoDGMPro.Lookups.GSUB.Fractions,
+        NeoDGMPro.Lookups.GSUB.StylisticVariants
       ]
     }
   end

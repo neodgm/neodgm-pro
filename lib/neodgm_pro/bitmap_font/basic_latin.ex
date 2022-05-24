@@ -3,10 +3,6 @@ use PixelFont.GlyphSource
 glyph_source NeoDGMPro.BitmapFont.BasicLatin do
   based_on NeoDGM.BitmapFont.BasicLatin, only: :unicode
 
-  module do
-    require NeoDGM.Macros.Glyphs.BasicLatin, as: BasicLatinMacros
-  end
-
   bmp_glyph ?\s do
     advance 5
     bounds 0..0, 0..0
@@ -144,48 +140,6 @@ glyph_source NeoDGMPro.BitmapFont.BasicLatin do
     11
     """
   end
-
-  # cv01-0: Slashed zero (default)
-  # cv01-1: Empty zero, which looks exactly like Latin captal letter O
-  # cv01-2: Dotted zero
-  # cv01-3: Reverse-slashed zero
-  # cv01-4: Slashed zero, more rounded
-  # cv01-5: Empty zero, more rounded
-  # cv01-6: Dotted zero, more rounded
-  # cv01-7: Reverse-slashed zero, more rounded
-  bmp_glyph ?0, do: BasicLatinMacros.digit(0, 0)
-  bmp_glyph "zero.cv01.1", do: BasicLatinMacros.digit(0, 1)
-  bmp_glyph "zero.cv01.2", do: BasicLatinMacros.digit(0, 2)
-  bmp_glyph "zero.cv01.3", do: BasicLatinMacros.digit(0, 3)
-  bmp_glyph "zero.cv01.4", do: BasicLatinMacros.digit(0, 4)
-  bmp_glyph "zero.cv01.5", do: BasicLatinMacros.digit(0, 5)
-  bmp_glyph "zero.cv01.6", do: BasicLatinMacros.digit(0, 6)
-  bmp_glyph "zero.cv01.7", do: BasicLatinMacros.digit(0, 7)
-
-  bmp_glyph ?1, do: BasicLatinMacros.digit(1, 0)
-
-  bmp_glyph ?2, do: BasicLatinMacros.digit(2, 0)
-  bmp_glyph "two.cv02.1", do: BasicLatinMacros.digit(2, 1)
-
-  bmp_glyph ?3, do: BasicLatinMacros.digit(3, 0)
-  bmp_glyph "three.cv03.1", do: BasicLatinMacros.digit(3, 1)
-
-  bmp_glyph ?4, do: BasicLatinMacros.digit(4, 0)
-  bmp_glyph "four.cv04.1", do: BasicLatinMacros.digit(4, 1)
-
-  bmp_glyph ?5, do: BasicLatinMacros.digit(5, 0)
-  bmp_glyph "five.cv05.1", do: BasicLatinMacros.digit(5, 1)
-
-  bmp_glyph ?6, do: BasicLatinMacros.digit(6, 0)
-  bmp_glyph "six.cv06.1", do: BasicLatinMacros.digit(6, 1)
-
-  bmp_glyph ?7, do: BasicLatinMacros.digit(7, 0)
-  bmp_glyph "seven.cv07.1", do: BasicLatinMacros.digit(7, 1)
-
-  bmp_glyph ?8, do: BasicLatinMacros.digit(8, 0)
-
-  bmp_glyph ?9, do: BasicLatinMacros.digit(9, 0)
-  bmp_glyph "nine.cv08.1", do: BasicLatinMacros.digit(9, 1)
 
   bmp_glyph ?: do
     advance 5

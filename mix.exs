@@ -4,7 +4,7 @@ defmodule NeoDGMPro.MixProject do
   def project do
     [
       app: :neodgm_pro,
-      version: "1.0.11",
+      version: "1.0.20",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps(),

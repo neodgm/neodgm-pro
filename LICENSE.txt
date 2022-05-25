@@ -1,4 +1,4 @@
-Copyright (c) 2021, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>,
+Copyright (c) 2022, Eunbin Jeong (Dalgona.) <project-neodgm@dalgona.dev>,
 with Reserved Font Name NeoDunggeunmo Pro.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
